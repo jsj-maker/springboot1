@@ -4,17 +4,14 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.stone.spring.entities.User;
-import com.stone.spring.repository.UserRepository;
 
 
 
-@Service
+//@Service
 public class UserService {
-
+/*
 	@Autowired
 	public UserRepository userRepository;
 
@@ -33,6 +30,6 @@ public class UserService {
 	public boolean saveUser(User user) {
 		userRepository.saveAndFlush(user);
 		return true;
-	}
+	}*/
 
 }
